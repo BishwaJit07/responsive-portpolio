@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.Navtitle{
+    font-size: 45px ;
+    font-weight: 800;
+}
+.mainORG{
+    color: #FD6E0A ;
+}
+nav{
+    display: flex;
+   justify-content: space-between; 
+   padding: 50px  200px;
+   align-items: center;
+}
+nav li {
+    list-style: none;
+    margin:50px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.primary-btn 
+{
+    color: white;
+    padding: 18px 35px ;
+   border: 0px;
+    background: #8a58da;
+  
+ 
+
+
+    width: 151.52px;
+    height: 57.49px;
+    left: 1220.65px;
+    top: 48.52px;
+   border-radius: 5px;  
+}
+
+/* Background Img */
+.hover {
+  background: #bcdee963;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+/* Name */
+
+.intro
+{
+    font-size: 45px;
+    color: #474747;
+    margin: 20px; ;
+}
+
+.name
+{
+    font-size: 70px;
+    font-weight: 700;
+
+}
+.about
+{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px;
+}
+
+/* banner */
+
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.Down 
+{
+    width: 200px;
+    height: 64px; 
+    background-color: #df2a2a;
+   
+left: 230px;
+top: 589px;
+
+color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+border: 0;
+}
+ 
+    /* Main */
+  main{
+    max-width: 1140px ;
+    
+    margin: auto;
+    
+  }
+   
+/* About sec */
+
+
+ .about{
+    margin-top: 15px;
+    
+  }
+
+  .detailed{
+    background: #FFF8F3;
+     border-radius: 10px ;
+     padding: 131px 156px;
+     text-align: center;
+     margin-bottom: 30px;
+  }
+
+.sec-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+  .sec-des {
+    color: #757575;
+    margin-bottom: 20px;
+  }
+/* Info */
+  .about-info-container{  display:flex ;
+   justify-content: space-around;
+    }
+
+
+  .info-title{
+    color: #757575;
+    font-weight: 400;
+font-size: 20px;
+  }
+
+  .info-description{
+   
+    font-weight: 400;
+font-size: 20px;
+color: #1b1b1b;
+  }
+
+  /* What i do */
+
+  .what-i-do {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    
+  }
+
+  /* skill */
+
+  .skill-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ padding: 10px;
+
+  }
+  .skill-title {
+    font-weight: 700;
+     font-size: 20px;
+     padding : 20px;
+  }
+  .skill-description
+  {
+    font-weight: 400;
+     font-size: 16px;
+     color: #757575;
+     
+  }
+
+  /* resume Summery */
+  .summery{
+    margin: 50px;
+  }
+.Resume{
+  
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+   
+}
+
+.resume-content {
+  display: flex;
+  gap: 24px;
+  margin: ;
+}
+
+.resume-title{
+  margin-bottom: 10px;
+
+
+}
+.resume-item{
+
+  margin: 3px;
+}
+
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.sub-title {
+  font-weight: 600;
+font-size: 20px
+color: #757575;
+margin-bottom: 10px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 15px;
+}
+
+.primary-btn {
+ 
+  text-align: center;
+  width: 200px;
+height: 64px;
+                
+}
+
+.contact{ display: flex;
+gap: 100px;
+background: #FFF8F3;
+padding: 130px 200px;}
+
+.contact input,textarea {
+bottom: 0;
+  margin-bottom: 25px;
+}
+
+/* responsive */
+
+@media screen and (max-width:576px){
+  nav, .skill-container,.resume-content ,.about-info-container ,.contact ,.banner{
+
+             gap: 20px;
+              flex-direction: column;
+              padding: 20px 40px;
+              margin: 10px;
+              
+  }
+  .detailed{
+    padding: 20px 40px;
+  }
+ nav ul{
+    flex-direction: column;
+  }
+  .banner img{
+    width: 140%;
+  }
+  /* .hover{
+    background-color: aqua;
+    width: 100%;
+  } */
+}
+   
+@media screen and (min-width:577px) and (max-width:992px){
+  .detailed , .Resume{
+    padding: 20px 40px;
+  }
+  .what-i-do{
+   padding: 20px 40px; }
+ 
+ 
+}
